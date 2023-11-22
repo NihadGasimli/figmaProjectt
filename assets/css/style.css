@@ -1,0 +1,1374 @@
+body {
+    background-color: #F9F9F9;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E7E7E7;
+    display: flex;
+    width: 100%;
+    height: 107px;
+    position: fixed;
+    border-bottom: 1px;
+    z-index: 999;
+
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+
+header nav ul li a:hover {
+    color: #71A894;
+    transition: 0.2s;
+}
+
+header nav ul li:nth-child(4) a:hover {
+    color: #303031;
+    transition: 0.2s;
+}
+
+header nav ul li a {
+    text-decoration: solid;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #303031;
+    transition: 0.2s;
+}
+
+header nav ul li:nth-child(4) a {
+    color: #71A894;
+    font-weight: 800;
+    transition: 0.2s;
+
+}
+
+.logo img {
+    width: 68px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo h1 {
+    color: #303031;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+}
+
+.section1 {
+    position: relative;
+}
+
+.section1Text {
+    width: 608px;
+    height: 248px;
+    position: absolute;
+    top: 265px;
+    left: 31px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.heading p {
+    width: 608px;
+    height: 160px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    color: #303031;
+}
+
+.descriptionOfHeading p {
+    width: 608px;
+    height: 64px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+
+}
+
+.section1Image img {
+    position: absolute;
+    width: 733px;
+    height: 720px;
+    top: 153px;
+    left: 676px;
+}
+
+.buttonRequest button {
+    position: absolute;
+    width: 219px;
+    height: 64px;
+    top: 552px;
+    left: 31px;
+    border-radius: 10px;
+    padding: 20px, 24px, 20px, 24px;
+    background-color: #71A894;
+    border: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+
+.buttonRequest button:hover {
+    box-shadow: 0px 0px 10px rgba(113, 168, 148, 10);
+    transition: 0.5s;
+}
+
+/*End of section 1 */
+
+.section2Text .heading p {
+    width: 895px;
+    height: 64px;
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    position: absolute;
+    top: 1060px;
+    left: 273px;
+}
+
+.section2Text .descriptionOfHeading p {
+    width: 895px;
+    height: 52px;
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    position: absolute;
+    top: 1140px;
+    left: 273px;
+}
+
+.cardsOfSection2 {
+    position: absolute;
+    top: 1248px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/*card1*/
+.cardsOfSection2 .card1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 427px;
+    height: 340px;
+    gap: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+}
+
+.cardsOfSection2 .card1 img {
+    width: 104px;
+    height: 88px;
+}
+
+.cardsOfSection2 .card1 h1 {
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.cardsOfSection2 .card1 p {
+    width: 379px;
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*card2*/
+.cardsOfSection2 .card2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 427px;
+    height: 340px;
+    gap: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+
+}
+
+.cardsOfSection2 .card2 img {
+    width: 104px;
+    height: 88px;
+}
+
+.cardsOfSection2 .card2 h1 {
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.cardsOfSection2 .card2 p {
+    width: 379px;
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*card3*/
+.cardsOfSection2 .card3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 427px;
+    height: 340px;
+    gap: 24px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    box-sizing: border-box;
+
+}
+
+.cardsOfSection2 .card3 img {
+    width: 104px;
+    height: 88px;
+}
+
+.cardsOfSection2 .card3 h1 {
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.cardsOfSection2 .card3 p {
+    width: 379px;
+    color: #303031;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/*END OF SECTION 2*/
+.section3 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top: 1781px;
+}
+
+/*LEFT SIDE OF SECTION 3*/
+.section3 .leftSideOfSection3 {
+    position: absolute;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.section3 .leftSideOfSection3 img {
+    width: 80px;
+    height: 80px;
+}
+
+.section3 .leftSideOfSection3 h1 {
+    width: 644px;
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.section3 .leftSideOfSection3 p {
+    width: 644px;
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+
+}
+
+/*RIGHT SIDE OF SECTION 3*/
+.section3 .rightSideOfSection3 {
+    position: absolute;
+    left: 838px;
+    width: 484px;
+    height: 450px;
+    background-color: white;
+    border-radius: 16px;
+    border: 4px solid #303031;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+
+.section3 .rightSideOfSection3 h2 {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.64px;
+    position: relative;
+    top: 32px;
+    left: 40px;
+
+}
+
+.section3 .rightSideOfSection3 {
+    display: flex;
+}
+
+/*card1*/
+.section3 .rightSideOfSection3 .card1 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: absolute;
+    top: 100px;
+    left: 38px;
+}
+
+.section3 .rightSideOfSection3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section3 .rightSideOfSection3 .card1 .textOfCard1 h3 {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+
+}
+
+.section3 .rightSideOfSection3 .card1 .textOfCard1 p {
+    color: #66645E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+
+}
+
+.section3 .rightSideOfSection3 .card1 .imageOfCard1 img {
+    width: 78px;
+    height: 94px;
+    border-radius: 50%;
+    bottom: 206px;
+    border: -4px -4px -18px -2px;
+    box-sizing: border-box;
+
+}
+
+/*card2*/
+.section3 .rightSideOfSection3 .card2 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    top: 80px;
+    left: 38px;
+}
+
+.section3 .rightSideOfSection3 .card2 .textOfCard2 h3 {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+
+}
+
+.section3 .rightSideOfSection3 .card2 .textOfCard2 p {
+    color: #66645E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+
+}
+
+.section3 .rightSideOfSection3 .card2 .imageOfCard2 img {
+    width: 85px;
+    height: 94px;
+    border-radius: 50%;
+    border: -21px -11px -37px -2px;
+    box-sizing: border-box;
+
+}
+
+/*card3*/
+.section3 .rightSideOfSection3 .card3 {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    top: 5px;
+    left: 38px;
+    margin-bottom: 10px;
+}
+
+.section3 .rightSideOfSection3 .card3 .textOfCard3 h3 {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 26px;
+    letter-spacing: -0.48px;
+
+}
+
+.section3 .rightSideOfSection3 .card3 .textOfCard3 p {
+    color: #66645E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.32px;
+
+}
+
+.section3 .rightSideOfSection3 .card3 .imageOfCard3 img {
+    width: 85px;
+    height: 94px;
+    border-radius: 50%;
+    border: -21px -11px -37px -2px;
+    box-sizing: border-box;
+
+}
+
+/*END OF SECTION 3*/
+.leftSideOfSection4 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: absolute;
+    top: 2308px;
+    left: 80px;
+    background-color: white;
+    border-radius: 16px;
+    border: 4px solid #303031;
+    width: 484px;
+    height: 412px;
+    box-sizing: border-box;
+
+}
+
+.leftSideOfSection4 .imageOfSection4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    position: relative;
+    left: 40px;
+}
+
+.leftSideOfSection4 .imageOfSection4 .image img {
+    border-radius: 50%;
+    width: 117px;
+    box-sizing: border-box;
+
+}
+
+.leftSideOfSection4 .imageOfSection4 .text h2 {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.leftSideOfSection4 .imageOfSection4 .text p {
+    color: #66645E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.leftSideOfSection4 .textOfSection4 p {
+    width: 404px;
+    height: 48px;
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: relative;
+    left: 40px;
+}
+
+.leftSideOfSection4 .commitAndShares {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 40px;
+    gap: 152px;
+}
+
+.leftSideOfSection4 .commitAndShares .commit h2 {
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+
+}
+
+.leftSideOfSection4 .commitAndShares .commit p {
+    color: #303031;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.leftSideOfSection4 .commitAndShares .shares h2 {
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.leftSideOfSection4 .commitAndShares .shares p {
+    color: #303031;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.leftSideOfSection4 .buttonOfSection4 button {
+    width: 404px;
+    padding: 12px 24px;
+    border-radius: 16px;
+    background-color: #303031;
+    color: white;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+    position: relative;
+    left: 40px;
+    box-sizing: border-box;
+
+}
+
+.rightSideOfSection4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 2347px;
+    left: 742px;
+    width: 644px;
+    gap: 24px;
+}
+
+.rightSideOfSection4 .imageOfSection4 img {
+    width: 80px;
+    height: 80px;
+}
+
+.rightSideOfSection4 .textOfSection4 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.rightSideOfSection4 .textOfSection4 h1 {
+    width: 644px;
+    color: #303031;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.rightSideOfSection4 .textOfSection4 p {
+    width: 644px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+}
+
+/*END OF SECTION 4*/
+.leftSideOfSection5 {
+    position: absolute;
+    top: 2962px;
+    left: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    width: 644px;
+}
+
+.leftSideOfSection5 img {
+    width: 64px;
+    height: 64px;
+    transform: rotate(135deg);
+}
+
+.leftSideOfSection5 h1 {
+    width: 644px;
+    color: #303031;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.leftSideOfSection5 p {
+    width: 644px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+}
+
+.rightSideOfSection5 {
+    position: absolute;
+    top: 2880px;
+    left: 739px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 13px;
+    width: 644px;
+    height: 500px;
+    padding: 11px 4px 24px 7px;
+}
+
+.rightSideOfSection5 .upperOfRightSide {
+    width: 631px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 16px;
+    border: 4px solid #303031;
+    box-sizing: border-box;
+
+}
+
+.rightSideOfSection5 .upperOfRightSide h2 {
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+}
+
+.rightSideOfSection5 .upperOfRightSide p {
+    width: 404px;
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.rightSideOfSection5 .upperOfRightSide .shareOfFirstDiv {
+    position: absolute;
+    top: 59px;
+    left: 489.5px;
+    padding: 4px 8px;
+    border-radius: 40px;
+    background-color: #71A894;
+    color: white;
+    width: 63px;
+    height: 24px;
+    text-align: center;
+}
+
+.rightSideOfSection5 .lowerOfRightSide {
+    display: flex;
+    column-gap: 12px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 40px;
+    width: 381px;
+    height: 288px;
+    border-radius: 16px;
+    border: 4px solid #303031;
+    background-color: #F3F0EA;
+    box-sizing: border-box;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower h1 {
+    color: #303031;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.48px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .firstApplicant {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .firstApplicant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .firstApplicant p {
+    color: #303031;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .secondApplicant {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .secondApplicant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .secondApplicant p {
+    color: #303031;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .thirdApplicant {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .thirdApplicant img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .leftSideOfLower .thirdApplicant p {
+    color: #303031;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 16px;
+    border: 4px solid #71A894;
+    width: 240px;
+    height: 288px;
+    box-sizing: border-box;
+
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 212px;
+    left: 483px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower h1 {
+    color: #303031;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.4px;
+    position: absolute;
+    top: 300px;
+    left: 477px;
+    width: 87px;
+    height: 24px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower p {
+    color: #66645E;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 328px;
+    left: 487px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower span {
+    color: #303031;
+    display: flex;
+    align-self: left;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 368px;
+    left: 424px;
+}
+
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower button {
+    border-radius: 16px;
+    background-color: #303031;
+    padding: 12px 24px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    width: 192px;
+    align-self: center;
+    position: absolute;
+    top: 408px;
+    left: 424px;
+}
+
+/*END OF SECTION 5*/
+.section6 .headingOfSection6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.section6 .headingOfSection6 h1 {
+    position: absolute;
+    top: 3540px;
+    left: 273px;
+    width: 895px;
+    color: #303031;
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.section6 .headingOfSection6 p {
+    position: absolute;
+    top: 3628px;
+    left: 273px;
+    width: 895px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    text-align: center;
+}
+
+.section6 .cardsOfSection6 {
+    position: absolute;
+    top: 3728px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    gap: 28px;
+}
+
+/*First card*/
+.section6 .cardsOfSection6 .firstCard {
+    background-color: white;
+    width: 427px;
+    height: 216px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section6 .cardsOfSection6 .firstCard h2 {
+    width: 379px;
+    height: 24px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36px;
+    position: relative;
+    top: 24px;
+}
+
+.section6 .cardsOfSection6 .firstCard p {
+    width: 379px;
+    height: 72px;
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 64px;
+}
+
+.section6 .cardsOfSection6 .firstCard button {
+    padding: 4px 8px;
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #71A894;
+    position: absolute;
+    top: 160px;
+    left: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.section6 .cardsOfSection6 .firstCard span {
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 164px;
+    left: 297px;
+}
+
+/*Second card*/
+.section6 .cardsOfSection6 .secondCard {
+    background-color: white;
+    width: 427px;
+    height: 216px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section6 .cardsOfSection6 .secondCard h2 {
+    width: 379px;
+    height: 24px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36;
+    position: relative;
+    top: 24px;
+}
+
+.section6 .cardsOfSection6 .secondCard p {
+    width: 379px;
+    height: 72px;
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 64px;
+}
+
+.section6 .cardsOfSection6 .secondCard button {
+    padding: 4px 8px;
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #71A894;
+    position: absolute;
+    top: 160px;
+    left: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.section6 .cardsOfSection6 .secondCard span {
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 164px;
+    left: 297px;
+}
+
+.section6 .cardsOfSection6 .thirdCard {
+    background-color: white;
+    width: 427px;
+    height: 216px;
+    border-radius: 16px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section6 .cardsOfSection6 .thirdCard h2 {
+    width: 379px;
+    height: 24px;
+    color: #303031;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: -0.36;
+    position: relative;
+    top: 24px;
+}
+
+.section6 .cardsOfSection6 .thirdCard p {
+    width: 379px;
+    height: 72px;
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 64px;
+}
+
+.section6 .cardsOfSection6 .thirdCard button {
+    padding: 4px 8px;
+    display: flex;
+    gap: 10px;
+    border-radius: 40px;
+    border: 0px;
+    background-color: #71A894;
+    position: absolute;
+    top: 160px;
+    left: 24px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+}
+
+.section6 .cardsOfSection6 .thirdCard span {
+    color: #303031;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    line-height: 24px;
+    letter-spacing: -0.32px;
+    position: absolute;
+    top: 164px;
+    left: 297px;
+}
+
+.section6 .buttonOfSection6 button {
+    position: absolute;
+    top: 4008px;
+    left: 653.5px;
+    padding: 20px 24px;
+    border-radius: 8px;
+    background-color: #303031;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.section7 {
+    width: 1328px;
+    height: 361px;
+    position: absolute;
+    top: 4240px;
+}
+
+.section7 h1 {
+    width: 644px;
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 64px;
+    position: relative;
+    left: 56px;
+    top: 103px;
+}
+
+.section7 p {
+    width: 644px;
+    height: 52px;
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    position: absolute;
+    top: 191px;
+    left: 56px;
+}
+
+.section7 img {
+    width: 644px;
+    height: 361px;
+    position: absolute;
+    top: 44px;
+    left: 740px;
+}
+
+.section7 button {
+    position: absolute;
+    width: 219px;
+    height: 64px;
+    top: 283px;
+    left: 55.5px;
+    border-radius: 10px;
+    padding: 20px, 24px, 20px, 24px;
+    background-color: #71A894;
+    border: 0px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    transition: 0.2s;
+    box-sizing: border-box;
+}
+
+footer {
+    position: relative;
+    top: 4721px;
+    bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+footer h1 {
+    color: #303031;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.96px;
+    position: relative;
+    left: 56px;
+}
+
+footer nav2 ul {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    left: 860px;
+}
+
+footer nav2 ul li a {
+    color: #303031;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-decoration: solid;
+}
+
+footer nav2 ul li:nth-child(4) a {
+    color: #71A894;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-decoration: solid;
+}
