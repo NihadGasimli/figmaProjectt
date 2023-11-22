@@ -649,7 +649,13 @@ header nav ul li:nth-child(4) a {
     position: relative;
     left: 40px;
     box-sizing: border-box;
+    transition: 0.2s;
 
+}
+.leftSideOfSection4 .buttonOfSection4 button:hover{
+
+    box-shadow: 0px 0px 10px rgba(30, 30, 31, 10);
+    transition: 0.5s;
 }
 
 .rightSideOfSection4 {
@@ -982,6 +988,11 @@ header nav ul li:nth-child(4) a {
     position: absolute;
     top: 408px;
     left: 424px;
+    transition: 0.2s;
+}
+.rightSideOfSection5 .lowerOfRightSide .rightSideOfLower button:hover{
+    box-shadow: 0px 0px 10px rgba(30, 30, 31, 10);
+    transition: 0.5s;
 }
 
 /*END OF SECTION 5*/
@@ -1086,6 +1097,11 @@ header nav ul li:nth-child(4) a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.32px;
+    transition: 0.2s;
+}
+.section6 .cardsOfSection6 .firstCard button:hover{
+    box-shadow: 0px 0px 10px rgba(113, 168, 148, 10);
+    transition: 0.5s;
 }
 
 .section6 .cardsOfSection6 .firstCard span {
@@ -1158,6 +1174,11 @@ header nav ul li:nth-child(4) a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.32px;
+    transition: 0.2s;
+}
+.section6 .cardsOfSection6 .secondCard button:hover{
+    box-shadow: 0px 0px 10px rgba(113, 168, 148, 10);
+    transition: 0.5s;
 }
 
 .section6 .cardsOfSection6 .secondCard span {
@@ -1229,6 +1250,11 @@ header nav ul li:nth-child(4) a {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: -0.32px;
+    transition: 0.2s;
+}
+.section6 .cardsOfSection6 .thirdCard button:hover{
+    box-shadow: 0px 0px 10px rgba(113, 168, 148, 10);
+    transition: 0.5s;
 }
 
 .section6 .cardsOfSection6 .thirdCard span {
@@ -1258,6 +1284,11 @@ header nav ul li:nth-child(4) a {
     font-style: normal;
     font-weight: 700;
     line-height: 24px;
+    transition: 0.2s;
+}
+.section6 .buttonOfSection6 button:hover{
+    box-shadow: 0px 0px 10px rgba(30, 30, 31, 10);
+    transition: 0.5s;
 }
 
 .section7 {
@@ -1321,6 +1352,10 @@ header nav ul li:nth-child(4) a {
     transition: 0.2s;
     box-sizing: border-box;
 }
+.section7 button:hover {
+    box-shadow: 0px 0px 10px rgba(113, 168, 148, 10);
+    transition: 0.5s;
+}
 
 footer {
     position: relative;
@@ -1360,7 +1395,17 @@ footer nav2 ul li a {
     line-height: normal;
     letter-spacing: -0.4px;
     text-decoration: solid;
+    transition: 0.2s;
 }
+footer nav2 ul li a:hover{
+    color: #71A894;
+    transition: 0.2s;
+}
+footer nav2 ul li:nth-child(4) a:hover{
+    color: #303031;
+    transition: 0.2s;
+}
+
 
 footer nav2 ul li:nth-child(4) a {
     color: #71A894;
